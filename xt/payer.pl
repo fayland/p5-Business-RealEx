@@ -14,8 +14,8 @@ my $realex = Business::RealEx->new(
 
 # my $data = $realex->new_payer(
 #     orderid => abs($$) . "-" . time() . "-robin",
-#     payer_ref => 'fayland',
-#     first_name => 'Fayland',
+#     payerref => 'fayland',
+#     firstname => 'Fayland',
 #     surname => 'Lam',
 #     company => '247moneybox'
 # );
@@ -37,6 +37,41 @@ my $realex = Business::RealEx->new(
 #     'account' => 'internet'
 #   };
 
+# my $data = $realex->new_card(
+#     orderid => abs($$) . "-" . time() . "-robin",
+#     ref => 'fayland-card',
+#     payerref => 'fayland',
+#     number => '4988433008499991',
+#     expdate => '0115',
+#     chname => 'Fayland Lam',
+#     type => 'visa',
+# );
+# print Dumper(\$data);
 
+# my $data = $realex->update_card(
+#     orderid => abs($$) . "-" . time() . "-robin",
+#     ref => 'fayland-card',
+#     payerref => 'fayland',
+#     expdate => '0115',
+#     chname => 'Fayland Lam',
+#     type => 'visa',
+# );
+# print Dumper(\$data);
+
+# my $data = $realex->delete_card(
+#     ref => 'fayland-card',
+#     payerref => 'fayland',
+# );
+# print Dumper(\$data);
+
+# my $data = $realex->receipt_in(
+#     orderid => abs($$) . "-" . time() . "-robin",
+#     account => 'internet',
+#     amount => '19999',
+#     currency => 'EUR',
+#     payerref => 'fayland',
+#     paymentmethod => 'visa01', # card-ref?
+# );
+# print Dumper(\$data);
 
 1;
