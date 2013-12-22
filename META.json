@@ -36,6 +36,8 @@
       },
       "runtime" : {
          "requires" : {
+            "Digest::SHA1" : "0",
+            "LWP::UserAgent" : "0",
             "perl" : "5.008005"
          }
       },
