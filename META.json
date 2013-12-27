@@ -1,5 +1,5 @@
 {
-   "abstract" : "Blah blah blah",
+   "abstract" : "RealVault, Remote (Integrated) XML Solution",
    "author" : [
       "Fayland Lam <fayland@gmail.com>"
    ],
@@ -48,6 +48,17 @@
       }
    },
    "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/fayland/p5-Business-RealEx/issues"
+      },
+      "homepage" : "https://github.com/fayland/p5-Business-RealEx",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/fayland/p5-Business-RealEx.git",
+         "web" : "https://github.com/fayland/p5-Business-RealEx"
+      }
+   },
    "version" : "0.01"
 }
 
